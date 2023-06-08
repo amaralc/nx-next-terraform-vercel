@@ -1,0 +1,12 @@
+{
+  "name": "iac",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/iac",
+  "projectType": "application",
+  "targets": {
+    "init":{
+      "command": "terraform init"
+    }
+  },
+  "tags": []
+}
