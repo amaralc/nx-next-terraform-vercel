@@ -6,6 +6,12 @@
   "targets": {
     "init":{
       "command": "cd apps/iac && terraform init"
+    },
+    "plan":{
+      "command": "cd apps/iac && terraform plan"
+    },
+    "apply":{
+      "command": "cd apps/iac && terraform apply"
     }
   },
   "tags": []
