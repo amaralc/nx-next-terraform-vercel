@@ -8,10 +8,10 @@
       "command": "cd apps/iac && terraform init"
     },
     "plan":{
-      "command": "cd apps/iac && terraform plan"
+      "command": "cd apps/iac && terraform plan -var-file=env.tfvars"
     },
     "apply":{
-      "command": "cd apps/iac && terraform apply"
+      "command": "cd apps/iac && terraform apply -var-file=env.tfvars"
     }
   },
   "tags": []
