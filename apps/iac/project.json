@@ -11,7 +11,7 @@
       "command": "cd apps/iac && terraform plan -var-file=env.tfvars"
     },
     "apply":{
-      "command": "cd apps/iac && terraform apply -var-file=env.tfvars"
+      "command": "cd apps/iac && terraform apply -var-file=env.tfvars -auto-approve"
     }
   },
   "tags": []
