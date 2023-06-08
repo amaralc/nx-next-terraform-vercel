@@ -40,3 +40,14 @@ Thumbs.db
 
 # Next.js
 .next
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.override.tf
+*_override.tf
+*.log
+.env
+secrets.auto.tfvars

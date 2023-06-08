@@ -5,7 +5,7 @@
   "projectType": "application",
   "targets": {
     "init":{
-      "command": "terraform init"
+      "command": "cd apps/iac && terraform init"
     }
   },
   "tags": []
